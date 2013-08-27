@@ -2,6 +2,9 @@
   <body>
   <script type="text/javascript">
   function ptui_login2_cb(a,b){
+    if(b == undefined){
+        b = 'not login'
+    }
     document.getElementById('url').innerHTML = b;
   }
   </script>
