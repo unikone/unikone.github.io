@@ -1,0 +1,9 @@
+<iframe src="http://openapi.qzone.qq.com/oauth/show?which=ConfirmPage&display=pc&response_type=code&client_id=100263567&redirect_uri=http://bbs.kid.qq.com/t-891698-3.htm&scope=get_user_info,add_pic_t,add_t"></iframe>
+<input type='text' id='token'>
+<input type='button' value='generate' onclick='generate()'>
+<div id='res'></div>
+<script type="text/javascript">
+function generate(){
+    document.getElementById('res').innerHTML = 'http://security.tencent.com/index.php/sign/qq_callback?code='+document.getElementById('token').value
+}
+</script>
