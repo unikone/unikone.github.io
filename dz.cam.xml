@@ -26,7 +26,7 @@
 <siteerror>参数错误,系统载入失败</siteerror>
 <ver1>程序需 FlashPlayer 9.0.45 以上版本您的播放器版本为</ver1>
 <ver2>请升级</ver2>
-<refuse><![CDATA[<a href='javascript:alert(2)'>返回请点击<a href='javascript:alert(2)'>这里</a>]]></refuse>
+<refuse><![CDATA[<a href='javascript:alert(2)'>返回请点击这里</a>]]></refuse>
 <countdown>倒数</countdown>
 <second>秒</second>
 <nocam> <![CDATA[<a href='javascript:alert(2)'>返回请点击这里</a>]]></nocam>
