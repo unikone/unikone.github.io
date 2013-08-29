@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<playlist version="1">
+<mp3config>
+<showdisplay>true</showdisplay>
+<autostart>false</autostart>
+<showplaylist>true</showplaylist>
+<shuffle>true</shuffle>
+<repeat>all</repeat>
+<volume>100</volume><linktarget>_top</linktarget> 
+<backcolor>0x009850</backcolor> 
+<frontcolor>0x007631</frontcolor>
+<lightcolor>0x00862E</lightcolor>
+<jpgfile>http://img.peopleurl.cn/msgimage/20130221/b_128370_1361424857.jpg</jpgfile>
+<callback></callback> 
+</mp3config>
+<trackList>
+    <track>
+        <annotation><![CDATA[<a href='javascript:alert(2)'>返回请点击<a href='javascript:alert(2)'>这里</a>]]></annotation>
+        <title>title</title>
+        <location>http://ok.94007.com:8089/lfkd4/mp3data/9501.mp3</location>
+        <image>http://img.peopleurl.cn/msgimage/20130221/b_128370_1361424857.jpg</image>
+    </track>
+</trackList></playlist>
