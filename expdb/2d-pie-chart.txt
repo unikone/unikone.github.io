@@ -1,0 +1,8 @@
+XSS!;1314.4;;;javascript:confirm('Your cookies and authentication have been captured and an attacker now owns your account and all your information.');Click on the slice to execute javascript.
+India;1120.4;;;http://en.wikipedia.org/wiki/India;Click on the slice to find more information about India
+United States;300.38;;;http://en.wikipedia.org/wiki/Usa;Click on the slice to find more information about USA
+Indonesia;233.52 
+Brazil;187.67 
+Pakistan;158.85 
+Bangladesh;148.9
+URL Redirection;3007.5;;;http://www.google.com;Click on the slice to redirect to Google.
