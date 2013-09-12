@@ -2,7 +2,7 @@
 <settings> 
   <data_type>csv</data_type>             
   <font>Tahoma</font>                    
-                                                          
+  <js_enabled>true</js_enabled>                                                         
   <pie>
      <link_target>_blank</link_target>
      <y>50%</y>
