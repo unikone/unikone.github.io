@@ -1,0 +1,7 @@
+<chart>
+  <graphs>
+    <graph gid="0">
+      <point x="2" y="20" value="200">bbb\"))}catch(e){alert(2)}//</point>
+    </graph>
+  </graphs>
+</chart>
