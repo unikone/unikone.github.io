@@ -1,0 +1,1 @@
+<chart><message><![CDATA[<a href="javascript:confirm('Your cookies and authentication have been captured and an attacker now owns your account and all your information.')">XSS ~ Click Me!</a>]]></message></chart>
