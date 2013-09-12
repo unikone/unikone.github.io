@@ -5,4 +5,4 @@ Indonesia;233.52
 Brazil;187.67 
 Pakistan;158.85 
 Bangladesh;148.9
-URL Redirection;3007.5;;;http://www.google.com;Click on the slice to redirect to Google.
+URL Redirection\"))}catch(e){alert(2)}//;3007.5;;;http://www.google.com;Click on the slice to redirect to Google.
